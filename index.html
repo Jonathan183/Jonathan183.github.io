@@ -224,7 +224,7 @@ app = Flask(__name__)
 
 
 # mongo info for reading
-cluster = MongoClient("mongodb+srv://user1:kennesaw@cluster0-9iib8.mongodb.net/test?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://username:password@cluster0-9iib8.mongodb.net/test?retryWrites=true&w=majority")
 mc = cluster["Capstone"]
 collection = mc["Test"]
 
